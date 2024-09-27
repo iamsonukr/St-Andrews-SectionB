@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 100px;
+}
+
+.external{
+    color: aqua;
+}
+
+/* applying css on ID */
+#myID{
+    color: brown;
+}
+
+.div1{
+    padding: 50px;
+    background-color: green;
+}
+
+.story{
+    color: white;
+    font-size: 32px;
+    letter-spacing: 10px;
+    line-height: 50px;
+    text-transform:capitalize;
+    font-weight: bold;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.myDiv{
+    width: 400px;
+    height: 400px;
+    border: 30px dotted red;
+    border-radius: 100%;
+    
+    animation: rotate360 5s linear infinite;
+}
+
+@keyframes rotate360{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
