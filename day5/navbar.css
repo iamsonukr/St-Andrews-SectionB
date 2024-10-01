@@ -1,0 +1,22 @@
+/* .navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    height: 100px;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+} */
+
+.container{
+    font-size: 30px;
+    text-align: center;
+}
+
+.first{
+    font-size: 3rem;
+}

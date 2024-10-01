@@ -1,0 +1,9 @@
+.div1{
+    background-color: red;
+    background-image: url('https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    color: red;
+}

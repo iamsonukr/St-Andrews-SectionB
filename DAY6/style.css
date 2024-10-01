@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cnt{
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0px;
+}
+
+.cnt h3{
+    color: white;
+    position: relative;
+    top: 20px;
+}
+
+.container{
+    width: 100%;
+    /* height: 90px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.aboutMe{
+   font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;;
+    color: black;
+}
+
+.buttonHead{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    padding: 30px 70px;
+    background-color: purple;
+    color: white;
+    border: none;
+}
+
+.btn:hover{
+    background-color: red;
+    border-radius: 10px 30px ;
+
+    box-shadow: 2px black;
+}
+.btn:active{
+    background-color: pink;
+}
+
+@media only screen and (max-width: 760px) {
+    .container {
+      background-color: blue;
+      font-size: 30px;
+    }
+  }
