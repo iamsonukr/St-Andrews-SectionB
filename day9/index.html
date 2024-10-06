@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>POP</h1>
+
+    <script>
+        // Array
+        const names = ['Alice', 'Bob', 'Micky', 'Jasmine']
+
+        const printNames = () => {
+            // Map Function
+            names.map((item) => (
+                console.log(item)
+            ))
+        }
+
+        console.log("----BEFORE POP----")
+        printNames()
+
+        setTimeout(() => {
+            names.pop()
+            console.log("----AFTER POP----")
+            printNames()
+        }, 4000)
+
+        // this is trycatch
+        // function divideNumbers(a, b) {
+        //     try {
+        //         if (b === 0) {
+        //             throw new Error("Division by zero is not allowed.");
+        //         }
+        //         const result = a / b;
+        //         console.log(`Result: ${result}`);
+        //     } catch (error) {
+        //         console.log(`Error: ${error.message}`);
+        //     }
+        // }
+        
+        const divideByZero=(a,b)=>{
+            try {
+                
+            } catch (error) {
+                console.log(error)
+            }
+        }
+
+        divideNumbers(10, 2); // Output: Result: 5
+        divideNumbers(10, 0);
+
+
+
+    </script>
+
+</body>
+
+</html>

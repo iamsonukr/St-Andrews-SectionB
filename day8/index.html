@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="time">0</h1>
+    <h1>Hello Everyone My name is</h1>
+    <h1 id="name">https://github.com/Vishalsaini0001/netflix-clonee</h1>
+
+    <script>
+        const changeName=()=>{
+            document.getElementById('name').innerHTML="John Cena"
+        }
+      
+        setInterval(()=>{
+            changeName()           
+        },5000)
+
+        // Time
+        let sec=0
+        const changeTime=()=>{
+            
+            sec=sec+3;
+            document.getElementById('time').innerHTML=sec
+        }
+
+        setTimeout(()=>{
+            // changeTime() 
+            console.log("Hello This is Me")
+        },2000)
+
+        // eval
+
+        let a = 10;
+        let b = 20;
+        let result = eval( a + b)
+        console.log("Result is - ",result)
+    </script>
+</body>
+</html> 
